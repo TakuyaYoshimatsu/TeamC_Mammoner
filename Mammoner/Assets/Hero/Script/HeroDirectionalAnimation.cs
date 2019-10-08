@@ -24,7 +24,7 @@ public class HeroDirectionalAnimation : MonoBehaviour
         Vector2 inputAxis = new Vector2((int)Input.GetAxis("Horizontal"), (int)Input.GetAxis("Vertical"));
         if (inputAxis != Vector2.zero) Direction = inputAxis;
 
-        //add start yoshimatsu
+        //add start yoshimatsu a
         var Horizontal = transform.position.x - prev_h.x;
         var Vertical   = transform.position.y - prev_v.y;
         //add end yoshimatsu
