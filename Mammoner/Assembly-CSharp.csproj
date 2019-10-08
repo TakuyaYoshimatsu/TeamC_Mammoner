@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Hero\Script\HeroDirectionalAnimation.cs" />
     <Compile Include="Assets\Hero\Script\InputMove.cs" />
+    <Compile Include="Assets\Hero\Script\NewBehaviourScript.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/ゲーム開発/TeamC_Mammoner/Mammoner/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
